@@ -61,8 +61,8 @@ git config --global alias.last 'log -l HEAD'
 
 ### branch br
 
-![](/book/en/v2/book/03-git-branching/images/two-branches.png)
 ~~~
 git br testbr
+git co testbr
 
 ~~~

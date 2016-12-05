@@ -63,5 +63,6 @@ git config --global alias.last 'log -l HEAD'
 
 ~~~
 git br testbr
-[](https://git-scm.com/book/en/v2/book/03-git-branching/images/two-branches.png)
+![](https://git-scm.com/book/en/v2/book/03-git-branching/images/two-branches.png)
+
 ~~~

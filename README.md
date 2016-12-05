@@ -68,4 +68,7 @@ git co testbr
 git checkout -b iss53
   git branch iss53
   git co iss53
+
+git co master
+git merge testbr
 ~~~

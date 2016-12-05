@@ -34,3 +34,19 @@ git status
 git status
 
 ~~~
+
+### REMOTE
+
+~~~
+git remote -v
+git remote add ph https://github.com/gavincn/carryon
+git remote rm ph
+git remote add pb https://github.com/gavincn/carryon
+
+
+//default remote branch name is origin
+git push origin master
+git remote show origin
+
+
+~~~

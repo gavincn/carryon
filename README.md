@@ -65,4 +65,7 @@ git config --global alias.last 'log -l HEAD'
 git br testbr
 git co testbr
 
+git checkout -b iss53
+  git branch iss53
+  git co iss53
 ~~~

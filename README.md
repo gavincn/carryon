@@ -51,6 +51,12 @@ git remote show origin
 git co -b test origin/testbr
 
 git checkout --track origin/testbr
+git push origin --delete testbr
+
+//add a new remote branch [dev]
+
+git push dev
+
 ~~~
 
 ### alias

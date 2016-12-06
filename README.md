@@ -47,6 +47,8 @@ git remote add pb https://github.com/gavincn/carryon
 //default remote branch name is origin
 git push origin master
 git remote show origin
+
+git co -b test origin/testbr
 ~~~
 
 ### alias

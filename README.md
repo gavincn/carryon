@@ -35,26 +35,27 @@ git status
 
 ~~~
 
-### REMOTE
+### REMOTE RESPOSIRY
 
 ~~~
 git remote -v
 git remote add ph https://github.com/gavincn/carryon
 git remote rm ph
 git remote add pb https://github.com/gavincn/carryon
+~~~
 
+### REMOTE BRANCH
 
 //default remote branch name is origin
-git push origin master
-git push origin testbr
+git br dev
+git push origin dev
+git ls-remote
 git remote show origin
 
 pingping@carryon> git fetch origin
 From https://github.com/gavincn/carryon
   [new branch]      testbr     -> origin/testbr
 
-
-git ls-remote
 git co -b test origin/testbr
 
 git checkout --track origin/testbr

@@ -51,11 +51,18 @@ git remote show origin
 
 pingping@carryon> git fetch origin
 From https://github.com/gavincn/carryon
- * [new branch]      testbr     -> origin/testbr
+  [new branch]      testbr     -> origin/testbr
 
 
 git ls-remote
+git co -b test origin/testbr
 
+git checkout --track origin/testbr
+git push origin --delete testbr
+
+//add a new remote branch [dev]
+
+git push dev
 ~~~
 
 ### alias

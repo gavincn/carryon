@@ -49,6 +49,8 @@ git push origin master
 git remote show origin
 
 git co -b test origin/testbr
+
+git checkout --track origin/testbr
 ~~~
 
 ### alias

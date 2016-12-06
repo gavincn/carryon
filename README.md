@@ -48,13 +48,10 @@ git remote add pb https://github.com/gavincn/carryon
 
 //default remote branch name is origin
 git br dev
+
 git push origin dev
 git ls-remote
 git remote show origin
-
-pingping@carryon> git fetch origin
-From https://github.com/gavincn/carryon
-  [new branch]      testbr     -> origin/testbr
 
 git co -b test origin/testbr
 
